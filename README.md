@@ -1,12 +1,13 @@
-KMP Android
------------
+KotlinAndroidFlutter-Demo
+-------------------------
 
 First:
 ```
+cd KMPAndroid
 ./gradlew :shared:linkDebugFrameworkIosSimulatorArm64
 ```
 
-Then run the Flutter App.
+Then run the Flutter App in `flutter_app`
 
 Uses `MethodChannel` to bridge to the generated Framework.
 
