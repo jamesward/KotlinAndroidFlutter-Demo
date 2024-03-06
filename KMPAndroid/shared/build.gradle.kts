@@ -28,6 +28,7 @@ kotlin {
         binaries {
             framework {
                 baseName = "Shared"
+                //isStatic = true
             }
         }
     }
